@@ -14,6 +14,7 @@
 		CD856B9B1E21C7EE000D49D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD856B991E21C7EE000D49D1 /* LaunchScreen.storyboard */; };
 		CD856BA61E21C7EE000D49D1 /* flicks_swift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD856BA51E21C7EE000D49D1 /* flicks_swift3Tests.swift */; };
 		CD856BB11E21C7EE000D49D1 /* flicks_swift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD856BB01E21C7EE000D49D1 /* flicks_swift3UITests.swift */; };
+		CDF986831E2BFB300018E6D0 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF986821E2BFB300018E6D0 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD856BAC1E21C7EE000D49D1 /* flicks-swift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flicks-swift3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD856BB01E21C7EE000D49D1 /* flicks_swift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flicks_swift3UITests.swift; sourceTree = "<group>"; };
 		CD856BB21E21C7EE000D49D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF986821E2BFB300018E6D0 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CD856B8F1E21C7EE000D49D1 /* flicks-swift3 */ = {
 			isa = PBXGroup;
 			children = (
+				CDF986811E2BFB090018E6D0 /* ViewControllers */,
 				CD856B901E21C7EE000D49D1 /* AppDelegate.swift */,
 				CD856B921E21C7EE000D49D1 /* ViewController.swift */,
 				CD856B941E21C7EE000D49D1 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				CD856BB21E21C7EE000D49D1 /* Info.plist */,
 			);
 			path = "flicks-swift3UITests";
+			sourceTree = "<group>";
+		};
+		CDF986811E2BFB090018E6D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDF986821E2BFB300018E6D0 /* MoviesViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				CD856B931E21C7EE000D49D1 /* ViewController.swift in Sources */,
 				CD856B911E21C7EE000D49D1 /* AppDelegate.swift in Sources */,
+				CDF986831E2BFB300018E6D0 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				CD856BB71E21C7EE000D49D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD856BB81E21C7EE000D49D1 /* Build configuration list for PBXNativeTarget "flicks-swift3Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				CD856BBA1E21C7EE000D49D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD856BBB1E21C7EE000D49D1 /* Build configuration list for PBXNativeTarget "flicks-swift3UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				CD856BBD1E21C7EE000D49D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
