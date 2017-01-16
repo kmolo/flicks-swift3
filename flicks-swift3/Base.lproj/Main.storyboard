@@ -49,6 +49,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="overviewLabel" destination="f2U-DW-cij" id="YqK-9N-Vlu"/>
+                                            <outlet property="titleLabel" destination="uHM-sN-6pU" id="VMg-hz-oaL"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
