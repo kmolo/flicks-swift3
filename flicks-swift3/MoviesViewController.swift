@@ -66,7 +66,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         //print("row \(indexPath.row)")
         //cell.textLabel!.text = "row \(indexPath.row)"
-        cell.textLabel!.text = title
+        //cell.textLabel!.text = title
+        cell.titleLabel.text = title
+        cell.overviewLabel.text = overview
         
         return cell
         
